@@ -7,7 +7,7 @@ $(document).ready(function() {
                   './img/SOL-Chipotle-Chicken-Desmadres1.jpg'];
 
     var index = 0;
-    var transition = function() {
+    function transition() {
         var url = urls[index];
 
         slideshow.css({'background-image': 'url(' + url + ')',
@@ -18,16 +18,16 @@ $(document).ready(function() {
         if (index > urls.length - 1) {
             index = 0;
         }
-    };
+    }
 
-    var run = function() {
+    function run() {
         transition();
         slideshow.fadeIn(1500, function() {
             setTimeout(function() {
-                slideshow.fadeOut(1500, run);
+                slideshow.fadeOut(1000, run);
             }, timeToDisplay);
         });
-    };
+    }
 
     run();
 });
