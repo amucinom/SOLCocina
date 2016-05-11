@@ -209,6 +209,11 @@ footer {
     height: 100%;
 }
 
+.menu {
+    display: block;
+    margin: 1.5rem auto;
+}
+
 .intro {
     padding-top: 2rem;
     padding-bottom: 2rem;
