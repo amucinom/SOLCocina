@@ -135,7 +135,7 @@ body {
 .description {
     width: 800px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 4rem 0;
     color: #333;
     font-size: 1.125em;
     font-weight: 400;
@@ -215,7 +215,7 @@ footer {
 }
 
 .intro {
-    padding-top: 2rem;
+    text-align: center;
     padding-bottom: 2rem;
     line-height: 1.75;
 }
